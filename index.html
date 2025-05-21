@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript-CrashCourse</title>
+  </head>
+  <body>
+    <h2>What Can JavaScript Do?</h2>
+    <br />
+    <br />
+    <p>JavaScript can change HTML attribute values.</p>
+    <p>
+      In this case JavaScript changes the value of the src (source) attribute of
+      an image.
+    </p>
+    <button onclick="document.getElementById('myImage').src='images/7252.png'">
+      Turn on the blue
+    </button>
+    <img id="myImage" src="images/7251.png" style="width: 100px" />
+    <button onclick="document.getElementById('myImage').src='images/7251.png'">
+      Turn off the red
+    </button>
+
+    <br /><br /><br />
+
+    <p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo1').style.cssText= 'font-size: 35px; color: blue;'">
+      Click Me!
+    </button>
+    <br /><br /><br />
+
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo2" style="display: none">Hello JavaScript!</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo2').style.display='block'">
+      Click Me!
+    </button>
+    <br />
+
+    <p id="demo3">JavaScript can hide HTML elements.</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.display='none'">
+      Click Me!
+    </button>
+  </body>
+</html>

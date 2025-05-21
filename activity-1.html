@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First JS page</title>
+    <script>
+      window.alert("Welcome to my Activity 1");
+      document.getElementById("number1").innerText = "ba000";
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript is so cool</h1>
+    <p>Open the console to see more...</p>
+
+    <p id="number1"></p>
+
+    <script>
+      document.getElementById("number1").innerText = "I like basketball";
+      console.log(9 + 9);
+      function changeText() {
+        document.getElementById("myParagraph").innerText =
+          "You clicked This Button!(Good Boy)";
+      }
+
+      function Bomboclat() {
+        document.getElementById("Bomboclat").innerText = "Okc in 5";
+      }
+    </script>
+    <p id="myParagraph">This Text will change when you click the button.</p>
+
+    <button onclick="changeText()">Click Me nowwwwwwwww</button>
+
+    <p id="Bomboclat">This should also change</p>
+    <button onclick="Bomboclat()">Bomboclat</button>
+    brr
+    <br /><b></b>
+    <button onclick="document.getElementById('myImage').src='images/OIP.jpg'">
+      Lebron
+    </button>
+    <img id="myImage" src="images/OIP.jpg" style="width: 100px" />
+    <button onclick="document.getElementById('myImage').src='images/SGA.jpg'">
+      SGA
+    </button>
+  </body>
+</html>
