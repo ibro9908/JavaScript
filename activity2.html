@@ -54,6 +54,12 @@
     </style>
     <script>
       window.prompt("Okc or Timberwolves? Who is Winning");
+
+      function changeText() {
+        document.getElementById("myParagraph").innerText =
+          "You clicked This Button! (Good Boy)";
+        console.log("changeText() was triggered");
+      }
     </script>
   </head>
   <body>
@@ -102,7 +108,7 @@
       Second Image
     </button>
 
-    <h1>Mvp</h1>
+    <h1>Mvp(2024-2025)</h1>
 
     <br /><br /><br />
     <button onclick="document.getElementById('myImage2').src='images/SGA.jpg'">
@@ -123,5 +129,8 @@
       onclick="document.getElementById('hiddenimage').style.display='block'">
       Click Me!
     </button>
+
+    <p id="myParagraph">Click the button to change this text.</p>
+    <button onclick="changeText()">Click Me</button>
   </body>
 </html>
