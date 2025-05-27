@@ -6,27 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    body {
+      color: white;
+      text-align: center;
+      font-size: 50px;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to bottom right, red, darkslategray, blue);
+    }
+  </style>
   <body>
     <script>
-      let name = "lashe";
+      let name = "Lashe";
       let food = "pizza";
       let verb = "slurping"; //constant
-      let place = "ptc.";
+      let place = "Ptc.";
       let emotion = "grumpiest"; //ends in est or iest
+      let adjective = "clean";
       let paragraph1 =
         name +
         " is the " +
         emotion +
-        " person alive, he wins many awards from records from the guinness book or records for it,but one day he looses this, and drowns himself in " +
+        " person alive, he wins many awards from records from the guinness book or records for it,but one day he looses this part of him, and drowns himself in " +
         food +
-        " and chicken but then he becomes fat and slower at walking to more food.";
+        " and chicken but then he becomes unhealthy and slower at walking to more food.";
       let paragraph2 =
         "So he vows to stop being gluttonous and stops " +
         "" +
         verb +
         "" +
         " slurpees at " +
-        place;
+        place +
+        "He now becomes very " +
+        adjective +
+        " to kind of regain the records he lost but he could never find his original spark and never gets more records.";
       let story = paragraph1 + " " + paragraph2;
       document.write("<p>" + story + "</p>");
       alert(story);
